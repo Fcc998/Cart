@@ -18,7 +18,7 @@ User u=(User)session.getAttribute("user");
 	<%if(u!=null){ %>
 	<b style="color: red;">用户<%=u.getUsername() %>在线... </b>
 	<a href="<%=request.getContextPath()%>/logout.user">注销</a>
-	<a href="<%=request.getContextPath()%>/showOrders.order">我的历史订单</a><%}else{ %>
+	<a href="<%=request.getContextPath()%>/showOrders.order">我的订单</a><%}else{ %>
     <a href="login.jsp">登录</a> 
     <a href="register.jsp">注册</a><%} %>
     <hr>

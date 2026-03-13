@@ -27,6 +27,6 @@ List<String> OrderId=(List<String>)request.getAttribute("OrderId");
  	</tr>
  	<%} %>
  </table>
- <a href="<%=request.getContextPath()%>/show.goods">返回</a>
+ <a href="<%=request.getContextPath()%>/show.goods">返回商品列表</a>
 </body>
 </html>

@@ -19,7 +19,7 @@
    <hr/>
    <form action="<%=request.getContextPath()%>/login.user" method="post">
    <table>
-   	<tr>
+   	<tr
    		<td>用户名:</td>
    		<td>
    			<input type="text" name="username">

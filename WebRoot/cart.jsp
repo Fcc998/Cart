@@ -58,5 +58,7 @@ int flag=1;
     <br>
     <a href="<%=request.getContextPath()%>/delete.cart?type=All">清空购物车</a> <a href="<%=request.getContextPath()%>/show.goods">继续购物</a> 
     <%if(flag==1){ %><a href="<%=request.getContextPath()%>/confirm.order">结算</a><%} %>
+    <br><br>
+    <a href="<%=request.getContextPath()%>/showOrders.order">我的订单</a>
   </body>
 </html>

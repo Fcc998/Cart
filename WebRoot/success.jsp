@@ -15,5 +15,7 @@ String id = (String)request.getAttribute("id");
 <h1>订单生成成功，订单号：<%=id %></h1>
 <br>
 <a href="<%=request.getContextPath()%>/show.goods">继续购物</a>
+<br><br>
+<a href="<%=request.getContextPath()%>/showOrders.order">查看我的订单</a>
 </body>
 </html>

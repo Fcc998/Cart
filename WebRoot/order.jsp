@@ -49,5 +49,7 @@ for(Cart c:cart){
 总计：<%=sum %>元
 <br>
 <a href="<%=request.getContextPath()%>/generate.order">生成订单</a> <a href="<%=request.getContextPath()%>/show.cart");">返回</a>
+<br><br>
+<a href="<%=request.getContextPath()%>/showOrders.order">我的订单</a>
 </body>
 </html>
